@@ -26,7 +26,7 @@ public class Ticket {
     private PriorityEnum priority;
 
     @DBRef(lazy = true)
-    private User assigendUser;
+    private User assignedUser;
 
     private String description;
 
@@ -91,12 +91,12 @@ public class Ticket {
         this.priority = priority;
     }
 
-    public User getAssigendUser() {
-        return assigendUser;
+    public User getAssignedUser() {
+        return assignedUser;
     }
 
-    public void setAssigendUser(User assigendUser) {
-        this.assigendUser = assigendUser;
+    public void setAssignedUser(User assigendUser) {
+        this.assignedUser = assigendUser;
     }
 
     public String getDescription() {

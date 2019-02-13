@@ -8,7 +8,7 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-import com.gustavo.helpdesk.api.enums.enums.ProfileEnum;
+import com.gustavo.helpdesk.api.enums.ProfileEnum;
 
 @Document
 public class User {

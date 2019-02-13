@@ -2,6 +2,7 @@ package com.gustavo.helpdesk.api.service;
 
 import com.gustavo.helpdesk.api.entity.User;
 import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 

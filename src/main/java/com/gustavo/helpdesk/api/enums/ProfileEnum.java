@@ -1,9 +1,9 @@
-package com.gustavo.helpdesk.api.enums.enums;
+package com.gustavo.helpdesk.api.enums;
 
 public enum ProfileEnum {
 
     ROLE_ADMIN,
     ROLE_CUSTOMER,
-    ROLE_TECHINICIAN;
+    ROLE_TECHNICIAN;
 
 }
